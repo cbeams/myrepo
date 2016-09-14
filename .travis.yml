@@ -1,12 +1,12 @@
 language: java
-jdk:
-  - oraclejdk7
-  - openjdk6
+
 script:
-  - mirror.sh
+  - ./mirror.sh
+
 branches:
   only:
     - gh-pages
+
 env:
   global:
     secure: sEQqotRPLW3ozYQmUqcSe9AH1BB4CtSLId6Wod2OrFl4b5JA4QyOVs0KpA9CRWU/hVROo7LM5lgcJQQRcZOx76LjqABzVVXmNU9BxDhMQtBsxw+9EeneGb86GTj3d/57EXG05xKo5LUFxjrQTnUvP69tu95QSENnkW+Tbfay5d9JROIHdYnIdybcCwMyUWS04XA/R3qRCpCGQJLfN0IBwzGMlUfV65OzTpH78GIs8kTMaRcpd2TrbFTaas6UQHjIWq9SsFhY3DQ09urfWLuSFZavh1HriFgooxC4FmmF+epAz4Tws8BkcZPjZZHox2qmQVmRCx8Hy/GMB83izJWO8mKgED8rjP02AfYo19zZFscDKuTw2ENeQKPT78qYHPZc7T4A40gNlFMIlMkkrP5NBJw28TNWXfYeKsKLKakIjWnoD2cyt5CXDU4lmwthwPqaQtlFv4aVXbJANIFeu9R7A1fvNQs2Qg5kWqR3SbcE3kpNAgMshSXfGzlowD6TGVfXYQIxintvSSDPlYHxTQCgDlR2nBLzessaoodhDTiPa728PfeuhlhdzYROfqkzyStcEXh20+Bbv6vZOZvmG2E/PJoxZslGpHuzCEOYhaIRkVALn+WzYxJJqD9l7mGm3ypf66p1521pouoKSppHJGXydX3K5FBPiPugx5uoF71nM+o=
